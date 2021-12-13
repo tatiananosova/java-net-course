@@ -30,6 +30,10 @@ public class ServerHandler extends ChannelInboundHandlerAdapter {
         ctx.fireChannelRegistered();
     }
 
+    /*
+     Lava flow in this method.
+     Too big to handle. Need to split up to several methods.
+     */
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) {
         String strMsg = msg.toString().trim();

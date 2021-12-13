@@ -12,6 +12,11 @@ import org.apache.log4j.Logger;
 import java.nio.charset.Charset;
 import java.util.List;
 
+/*
+This class looks like a Poltergeist class.
+It is used by both Client and Server but looks like as an unnecessary object.
+It's probably better to have it as Singleton
+ */
 public class EncoderDecoder {
     private static Logger log = Logger.getLogger(EncoderDecoder.class);
 

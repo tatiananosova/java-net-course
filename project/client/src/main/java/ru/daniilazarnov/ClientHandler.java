@@ -26,6 +26,10 @@ public class ClientHandler extends ChannelInboundHandlerAdapter {
         ctx.fireChannelRegistered();
     }
 
+    /*
+     Lava flow in this method.
+     Too big to handle. Need to split up to several methods.
+     */
     @Override
     public void channelActive(ChannelHandlerContext ctx) {
         LOGGER.info("Channel Active!!!");

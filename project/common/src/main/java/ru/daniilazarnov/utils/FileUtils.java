@@ -10,6 +10,10 @@ import java.nio.file.Path;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/*
+This is must be Reinventing the wheel.
+There should be a lot of similar utils in some libraries.
+ */
 public class FileUtils {
     private static final Logger LOGGER = Logger.getLogger(FileUtils.class);
 
